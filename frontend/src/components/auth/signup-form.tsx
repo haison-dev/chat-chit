@@ -64,7 +64,7 @@ export function SignupForm({
                     {...register("lastname")} />
 
                   {errors.lastname && (
-                    <p className="text-sm text-destructive">
+                    <p className="error-message">
                       {errors.lastname.message}
                     </p>
                   )}
@@ -77,7 +77,7 @@ export function SignupForm({
                     {...register("firstname")} />
 
                   {errors.firstname && (
-                    <p className="text-sm text-destructive">
+                    <p className="error-message">
                       {errors.firstname.message}
                     </p>
                   )}
@@ -92,7 +92,7 @@ export function SignupForm({
                   {...register("username")} />
 
                 {errors.username && (
-                  <p className="text-sm text-destructive">
+                  <p className="error-message">
                     {errors.username.message}
                   </p>
                 )}
@@ -106,7 +106,7 @@ export function SignupForm({
                 <Input type="email" id="email" {...register("email")} />
 
                 {errors.email && (
-                  <p className="text-sm text-destructive">
+                  <p className="error-message">
                     {errors.email.message}
                   </p>
                 )}
@@ -120,7 +120,7 @@ export function SignupForm({
                 <Input type="password" id="password" {...register("password")} />
 
                 {errors.password && (
-                  <p className="text-sm text-destructive">
+                  <p className="error-message">
                     {errors.password.message}
                   </p>
                 )}
