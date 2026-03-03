@@ -66,7 +66,7 @@ export function SigninForm({className, ...props}: React.ComponentProps<"div">) {
                 />
 
                 {errors.username && (
-                  <p className="text-sm text-destructive">
+                  <p className="error-message">
                     {errors.username.message}
                   </p>
                 )}
@@ -84,7 +84,7 @@ export function SigninForm({className, ...props}: React.ComponentProps<"div">) {
                 />
 
                 {errors.password && (
-                  <p className="text-sm text-destructive">
+                  <p className="error-message">
                     {errors.password.message}
                   </p>
                 )}
