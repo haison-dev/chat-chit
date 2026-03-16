@@ -2,6 +2,13 @@
 
 Realtime chat application with friend requests, direct and group messaging, and modern UI components.
 
+<div style="display: flex; gap: 10px;">
+  <img width="49%" src="https://github.com/user-attachments/assets/08400f08-3f19-496f-b56f-8e054c3788a4" />
+  <img width="49%" src="https://github.com/user-attachments/assets/76c10ea3-af74-4674-a7be-99c2a036c0ba" />
+</div>
+
+
+
 ## Overview
 `realtime-chat` is a full‑stack real‑time messaging app that supports user authentication, friend requests, direct conversations, group chats, and live presence updates. The frontend is built with React + Vite, while the backend uses Node.js with Socket.IO and MongoDB.
 
